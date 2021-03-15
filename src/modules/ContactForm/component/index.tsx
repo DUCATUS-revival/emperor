@@ -1,10 +1,15 @@
 import React from 'react';
 import { FormikProps } from 'formik';
 import { Form, Input } from 'antd';
+import PhoneInput from 'react-phone-input-2';
 
 import { validateField } from '../../../utils/validate';
 
 import './ContactForm.scss';
+import 'react-phone-input-2/lib/style.css';
+
+import { ReactComponent as NameImg } from '../../../assets/img/icons/name.svg';
+import { ReactComponent as EmailImg } from '../../../assets/img/icons/email.svg';
 
 const { TextArea } = Input;
 
@@ -20,7 +25,11 @@ const ContactForm: React.FC<FormikProps<IContactForm>> = ({
   handleChange,
   handleBlur,
   handleSubmit,
+  setFieldValue,
 }: any) => {
+  const onChangePhone = (value: any) => {
+    setFieldValue('phone', value);
+  };
   return (
     <Form name="c-form" className="c-form" layout="vertical">
       <Form.Item
@@ -29,6 +38,7 @@ const ContactForm: React.FC<FormikProps<IContactForm>> = ({
         validateStatus={validateField('name', touched, errors)}
         help={!touched.name ? false : errors.name}>
         <Input
+          prefix={<NameImg />}
           id="name"
           className="c-form__input input"
           placeholder="Your name"
@@ -42,14 +52,15 @@ const ContactForm: React.FC<FormikProps<IContactForm>> = ({
         className="c-form__item input__field"
         validateStatus={validateField('phone', touched, errors)}
         help={!touched.phone ? false : errors.phone}>
-        <Input
+        {/* <Input
           id="phone"
           className="c-form__input input"
           placeholder="(201) 555-0123"
           size="large"
           onChange={handleChange}
           onBlur={handleBlur}
-        />
+        /> */}
+        <PhoneInput onChange={onChangePhone} />
       </Form.Item>
       <Form.Item
         name="email"
@@ -58,6 +69,7 @@ const ContactForm: React.FC<FormikProps<IContactForm>> = ({
         help={!touched.email ? false : errors.email}>
         <Input
           id="email"
+          prefix={<EmailImg />}
           className="c-form__input input"
           placeholder="Your email"
           size="large"
