@@ -1,13 +1,39 @@
+// .text {
+//   font-size: 1.042vw;
+//   line-height: 1.25vw;
+//   &-md {
+//     font-size: 1.2vw;
+//     line-height: 1.8vw;
+//   }
+//   &-sm {
+//     font-size: 0.938vw;
+//     line-height: 1.146vw;
+//   }
+//   &-bold {
+//     font-family: MB;
+//   }
+// }
+
+// h2 {
+//   font-size: 1.7vw;
+//   line-height: 2.1vw;
+// }
+// .h1 {
+//   font-size: 2.3vw;
+//   line-height: 2.8vw;
+//   color: $gold;
+//   font-family: MR;
+// }
 .text {
-  font-size: 1.042vw;
-  line-height: 1.25vw;
+  font-size: 20px;
+  line-height: 24px;
   &-md {
-    font-size: 1.2vw;
-    line-height: 1.8vw;
+    font-size: 23px;
+    line-height: 33px;
   }
   &-sm {
-    font-size: 0.938vw;
-    line-height: 1.146vw;
+    font-size: 18px;
+    line-height: 22px;
   }
   &-bold {
     font-family: MB;
@@ -15,12 +41,12 @@
 }
 
 h2 {
-  font-size: 1.7vw;
-  line-height: 2.1vw;
+  font-size: 32px;
+  line-height: 39px;
 }
 .h1 {
-  font-size: 2.3vw;
-  line-height: 2.8vw;
+  font-size: 44px;
+  line-height: 54px;
   color: $gold;
   font-family: MR;
 }

@@ -3,14 +3,15 @@
   padding-bottom: 3.646vw;
   &__preview {
     padding: 4.5vw 0 4vw;
-    background-image: url('../../assets/img/sections/preview.jpg');
-    background-size: cover;
+    background-image: url('../../assets/gif/preview.gif');
+    background-size: 100%;
+    background-position: 100%;
     &-title {
-      max-width: 24vw;
+      max-width: 461px;
     }
     &-text {
       margin: 1.6vw 0px 1.3vw;
-      max-width: 27vw;
+      max-width: 517px;
       p + p {
         margin-top: 1.5vw;
       }
@@ -18,6 +19,13 @@
     &-coins {
       width: 27vw;
     }
+  }
+  &__empty {
+    position: absolute;
+    bottom: calc(100% + 145px);
+  }
+  &__about {
+    position: relative;
   }
   &__descr {
     display: flex;
@@ -29,10 +37,10 @@
         width: 100%;
       }
       &-text {
-        padding: 4vw 0 0 4.5vw;
+        padding: 4vw 10px 4vw 4.5vw;
         color: black;
         p {
-          max-width: 37.5vw;
+          max-width: 721px;
           display: block;
         }
         p + p {
@@ -44,6 +52,7 @@
   &__cards {
     display: grid;
     grid-template-columns: 33.33vw 33.33vw 33.33vw;
+    position: relative;
   }
   &__about {
     padding: 2.604vw 0 3.906vw;
@@ -80,17 +89,32 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .home {
+    &__preview {
+      &-coins {
+        margin: 0 auto;
+        width: 61.035vw;
+        display: block;
+      }
+    }
+  }
+}
 @media (max-width: 767px) {
   .home {
     padding-bottom: 25px;
+    &__empty {
+      bottom: calc(100% + 50px);
+    }
     &__preview {
-      background-image: url('../../assets/img/sections/preview-m.jpg');
-      background-size: 100% auto;
+      background-image: url('../../assets/gif/preview.gif');
+      background-size: 200% auto;
       background-repeat: no-repeat;
       padding: 305px 0 0;
+      background-position: 94% -25%;
       &-container {
         background: #000;
-        padding: 25px 15px !important;
+        padding: 25px 15px 35px !important;
       }
       &-title {
         max-width: 100%;
@@ -103,6 +127,7 @@
       }
       &-coins {
         width: 100%;
+        margin-top: 20px;
       }
     }
     &__descr {

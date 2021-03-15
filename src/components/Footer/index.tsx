@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
+import { NavHashLink } from 'react-router-hash-link';
 
 import './Footer.scss';
 
@@ -12,37 +11,29 @@ const Footer = () => {
       <div className="footer__bg">
         <div className="row row-md">
           <div className="footer__content">
-            <Link to="/">
+            <NavHashLink to="/#top" smooth>
               <img src={LogoImg} alt="emperor" className="footer__logo" />
-            </Link>
+            </NavHashLink>
             <div className="footer__navbar">
               <div className="footer__link">
-                <Link to="/" className=" text-md">
+                <NavHashLink smooth to="/#top" className=" text-md">
                   Home
-                </Link>
+                </NavHashLink>
               </div>
               <div className="footer__link">
-                <ScrollLink
-                  to="business"
-                  smooth={true}
-                  offset={-145}
-                  className="text-md">
+                <NavHashLink to="/#business" smooth={true} className="text-md">
                   Our Business
-                </ScrollLink>
+                </NavHashLink>
               </div>
               <div className="footer__link">
-                <ScrollLink
-                  to="about"
-                  smooth={true}
-                  offset={-145}
-                  className="text-md">
+                <NavHashLink to="/#about" smooth={true} className="text-md">
                   About us
-                </ScrollLink>
+                </NavHashLink>
               </div>
               <div className="footer__link">
-                <Link to="/" className="text-md">
+                <NavHashLink to="/contact" className="text-md">
                   Contact
-                </Link>
+                </NavHashLink>
               </div>
             </div>
           </div>

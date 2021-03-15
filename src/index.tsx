@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './App';
+import ScollToTop from './ScollToTop';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <ScollToTop>
+        <App />
+      </ScollToTop>
     </Router>
   </React.StrictMode>,
   document.getElementById('root'),

@@ -31,7 +31,7 @@ export default () => {
 
     handleSubmit: (values) => {
       axios
-        .post('contact_us', values)
+        .post('contact_us/', values)
         .then((res) => console.log(res))
         .catch((err) => console.log(err));
     },

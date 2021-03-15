@@ -1,5 +1,4 @@
 import React from 'react';
-import { Element } from 'react-scroll';
 
 import { CompCard, ManagerCard } from '../../components';
 
@@ -152,44 +151,43 @@ const HomePage: React.FC = () => {
           </p>
         </div>
       </div>
-      <Element name="business">
-        <div className="home__cards">
-          {cards.map((card, index) => (
-            <CompCard key={index} {...card} />
-          ))}
-        </div>
-      </Element>
-      <Element name="about">
-        <div className="home__about">
-          <div className="row row-md">
-            <div className="home__about-title h1">About Emperor</div>
-            <div className="home__about-text text-sm">
-              <p>
-                Founded in 2017, Emperor Holdings owns and operates a
-                diversified group of businesses with a common goal – to empower
-                people to reimagine their financial future with future-proof
-                business models, solutions and products that create
-                opportunities in boundless ways.
-              </p>
-              <p>
-                To us, having varied business interests is less about variety
-                but more about bringing tradition and innovation together. This
-                principle is realised in our framework for a truly cashless
-                economy. Blockchain and gold trading, crowdfunding and network
-                marketing, real estate and digital money, cashless shopping and
-                crypto trading – these are just some of the ways in which we
-                create possibilities.
-              </p>
-              <p>
-                We have offices in the world’s most progressive financial
-                centres - Singapore and Dubai, business presence in Europe,
-                Africa and the Middle East, and the support of a
-                forward-thinking global community spread across 180 countries.{' '}
-              </p>
-            </div>
+      <div className="home__cards">
+        <div className="home__empty" id="business"></div>
+        {cards.map((card, index) => (
+          <CompCard key={index} {...card} />
+        ))}
+      </div>
+      <div className="home__about">
+        <div className="home__empty" id="about"></div>
+        <div className="row row-md">
+          <div className="home__about-title h1">About Emperor</div>
+          <div className="home__about-text text-sm">
+            <p>
+              Founded in 2017, Emperor Holdings owns and operates a diversified
+              group of businesses with a common goal – to empower people to
+              reimagine their financial future with future-proof business
+              models, solutions and products that create opportunities in
+              boundless ways.
+            </p>
+            <p>
+              To us, having varied business interests is less about variety but
+              more about bringing tradition and innovation together. This
+              principle is realised in our framework for a truly cashless
+              economy. Blockchain and gold trading, crowdfunding and network
+              marketing, real estate and digital money, cashless shopping and
+              crypto trading – these are just some of the ways in which we
+              create possibilities.
+            </p>
+            <p>
+              We have offices in the world’s most progressive financial centres
+              - Singapore and Dubai, business presence in Europe, Africa and the
+              Middle East, and the support of a forward-thinking global
+              community spread across 180 countries.{' '}
+            </p>
           </div>
         </div>
-      </Element>
+      </div>
+
       <div className="home__managers lines lines-bg">
         <div className="home__managers-bg">
           <div className="home__managers-title h1">Management Team</div>

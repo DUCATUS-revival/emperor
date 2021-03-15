@@ -83,9 +83,9 @@ const ContactForm: React.FC<FormikProps<IContactForm>> = ({
         validateStatus={validateField('message', touched, errors)}
         help={!touched.message ? false : errors.message}>
         <TextArea
-          // maxLength={5000}
+          maxLength={1000}
           id="message"
-          // showCount={true}
+          showCount={true}
           rows={6}
           className="c-form__input input"
           placeholder="Your message"

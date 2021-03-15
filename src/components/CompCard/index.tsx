@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import './CompCard.scss';
 
@@ -30,7 +31,10 @@ const CompCard: React.FC<ICompCard> = ({
           <img src={logo} alt="logo" className="c-card__logo" />
         </div>
         <h2 className="c-card__title">{title}</h2>
-        <ul className="c-card__list text-sm">
+        <ul
+          className={classNames('c-card__list text-sm', {
+            'c-card__list-grid': list.length > 3,
+          })}>
           {list.map((item, index) => (
             <li key={index} className="c-card__list-item">
               • {item}

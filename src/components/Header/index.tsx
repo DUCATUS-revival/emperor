@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
+import { NavHashLink } from 'react-router-hash-link';
 import classNames from 'classnames';
 
 import './Header.scss';
@@ -17,9 +16,9 @@ const Header = () => {
       <div className="row">
         <div className="header__content">
           <div className="header__btn hidden-d"></div>
-          <Link to="/">
+          <NavHashLink to="/#top" smooth>
             <img className="header__logo" src={LogoImg} alt="" />
-          </Link>
+          </NavHashLink>
           <div
             className="header__btn hidden-d"
             onClick={() => setNavbarOpen(!isNavbarOpen)}>
@@ -30,26 +29,28 @@ const Header = () => {
             )}
           </div>
           <div className="header__navbar hidden-m">
-            <NavLink exact to="/" className="text-md header__link">
+            <NavHashLink
+              exact
+              smooth
+              to="/#top"
+              className="text-md header__link">
               Home
-            </NavLink>
-            <ScrollLink
-              to="business"
+            </NavHashLink>
+            <NavHashLink
+              to="/#business"
               smooth={true}
-              offset={height}
-              className="text-md header__link header__link-no">
+              className="text-md header__link">
               Our Business
-            </ScrollLink>
-            <ScrollLink
+            </NavHashLink>
+            <NavHashLink
               smooth={true}
-              offset={height}
-              to="about"
-              className="text-md header__link header__link-no">
+              to="/#about"
+              className="text-md header__link">
               About Us
-            </ScrollLink>
-            <NavLink exact to="/contact" className="text-md header__link">
+            </NavHashLink>
+            <NavHashLink exact to="/contact" className="text-md header__link">
               Contact
-            </NavLink>
+            </NavHashLink>
           </div>
         </div>
       </div>
@@ -58,38 +59,36 @@ const Header = () => {
           open: isNavbarOpen,
         })}>
         <div className="header__menu-nav">
-          <NavLink
+          <NavHashLink
             exact
-            to="/"
+            smooth
+            to="/#top"
             className=" h1 header__menu-link"
             onClick={() => setNavbarOpen(false)}>
             Home
-          </NavLink>
-          <ScrollLink
+          </NavHashLink>
+          <NavHashLink
             onClick={() => setNavbarOpen(false)}
-            to="business"
-            smooth={true}
-            offset={height}
-            className=" h1 header__menu-link header__link-no">
+            to="/#business"
+            smooth
+            className=" h1 header__menu-link">
             Our Business
-          </ScrollLink>
-          <ScrollLink
+          </NavHashLink>
+          <NavHashLink
             onClick={() => setNavbarOpen(false)}
             smooth={true}
-            offset={height}
-            to="about"
-            className=" h1 header__menu-link header__link-no">
+            to="/#about"
+            className=" h1 header__menu-link">
             About Us
-          </ScrollLink>
-          <NavLink
+          </NavHashLink>
+          <NavHashLink
             onClick={() => setNavbarOpen(false)}
             exact
             to="/contact"
             className=" h1 header__menu-link">
             Contact
-          </NavLink>
+          </NavHashLink>
         </div>
-        <img className="header__menu-logo" src={LogoImg} alt="" />
       </div>
     </header>
   );
