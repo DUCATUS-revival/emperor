@@ -1,0 +1,86 @@
+@import './reset';
+@import './fonts';
+@import './vars';
+@import './typography';
+@import '~antd/dist/antd.css';
+@import './components/index.scss';
+html,
+body {
+  margin: 0;
+  font-family: MR;
+  background: $bg-l;
+  color: white;
+  height: max-content;
+}
+* {
+  box-sizing: border-box;
+}
+#root {
+  height: max-content;
+}
+.emperor {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 2;
+}
+
+.row {
+  max-width: 89vw;
+  padding: 0 10px;
+  margin: 0 auto;
+  &-md {
+    max-width: 70vw;
+  }
+  &-lg {
+    max-width: 80vw;
+  }
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.lines {
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: 100%;
+    content: '';
+    height: 0.469vw;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      #caaa61 7.292%,
+      7.292%,
+      transparent 7.813%,
+      7.813%,
+      #a2844e 33.333%,
+      33.333%,
+      transparent 33.854%,
+      33.854%,
+      #dcc7aa 58.854%,
+      58.854%,
+      transparent 59.375%,
+      59.375%,
+      #ccb58c 84.375%,
+      84.375%,
+      transparent 84.896%,
+      84.896%,
+      #caaa5f
+    );
+  }
+  &-bg {
+    &::before {
+      background: black;
+      position: absolute;
+      bottom: 100%;
+      content: '';
+      height: 0.469vw;
+      width: 100%;
+    }
+  }
+}

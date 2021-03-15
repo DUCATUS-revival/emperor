@@ -1,0 +1,28 @@
+@import '../../styles/vars';
+.m-card {
+  width: 100%;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  &__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.87);
+    padding: 0.417vw 10px 0.208vw;
+    text-align: center;
+    min-height: 3.385vw;
+  }
+  &__name {
+    font-size: 0.885vw;
+    line-height: 1.094vw;
+    color: $yellow;
+    margin-bottom: 0.26vw;
+  }
+  &__position {
+    font-size: 0.573vw;
+    line-height: 0.677vw;
+  }
+}

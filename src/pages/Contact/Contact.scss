@@ -1,0 +1,25 @@
+@import '../../styles/vars';
+.contact {
+  &__preview {
+    padding: 4.427vw 0 7.813vw;
+    background-image: url(../../assets/img/sections/contact-preview.jpg);
+    background-size: cover;
+  }
+  &__content {
+    padding: 4.167vw 10vw 7.813vw 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    color: black;
+    &-title,
+    a {
+      color: $red;
+      font-family: MB;
+    }
+    a {
+      margin-top: 0.781vw;
+      display: block;
+    }
+  }
+}
