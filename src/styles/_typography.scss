@@ -24,3 +24,20 @@ h2 {
   color: $gold;
   font-family: MR;
 }
+
+@media (max-width: 767px) {
+  .h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .text {
+    &-md {
+      font-size: 17px;
+      line-height: 21px;
+    }
+    &-sm {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}

@@ -39,3 +39,41 @@
     margin: 1.823vw auto 0;
   }
 }
+
+@media (max-width: 767px) {
+  .c-card {
+    padding: 40px 15px 75px;
+    overflow: hidden;
+    &__content {
+      width: 100%;
+    }
+    &__title {
+      font-size: 25px;
+      line-height: 30px;
+      max-width: 287px;
+      margin: 50px auto 30px;
+    }
+    &__logo {
+      max-width: 100%;
+      &-box {
+        margin: 0 auto;
+        height: 62px;
+        width: 194px;
+      }
+    }
+    &__link {
+      margin-top: 40px;
+    }
+    &__list {
+      max-height: calc(3 * 30px + 3 * 10px);
+      margin: 0 auto;
+      &-item {
+        max-width: 197px;
+        margin-bottom: 10px;
+        &:nth-child(n + 4) {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}

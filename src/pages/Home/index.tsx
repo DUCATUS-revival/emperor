@@ -116,16 +116,16 @@ const HomePage: React.FC = () => {
   return (
     <main className="home">
       <div className="home__preview">
-        <div className="row row-md">
+        <div className="row row-md home__preview-container">
           <h1 className=" h1 home__preview-title">
             REIMAGINE YOUR FINANCIAL FUTURE WITH US.
           </h1>
           <div className="home__preview-text text-md">
             <p>
               We made it our mission to be your partner in building the future
-              you deserve. Constantly creating and always evolving, we connect
-              you to opportunities anchored ininnovation and powered by the
-              spirit of community.
+              you deserve.<br></br> Constantly creating and always evolving, we
+              connect you to opportunities anchored ininnovation and powered by
+              the spirit of community.
             </p>
             <p>We are The Emperor Group.</p>
           </div>

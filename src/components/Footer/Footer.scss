@@ -42,3 +42,37 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .footer {
+    &::before {
+      height: 8px;
+    }
+    &__bg {
+      padding: 30px 0;
+    }
+    &__content {
+      flex-direction: column;
+    }
+    &__logo {
+      width: 140px;
+    }
+    &__navbar {
+      margin-top: 20px;
+    }
+    &__link {
+      & + & {
+        margin-left: 20px;
+        &::before {
+          height: 25px;
+          margin-right: 20px;
+          opacity: 0.2;
+        }
+      }
+      a {
+        font-size: 12px !important;
+        line-height: 33px !important;
+      }
+    }
+  }
+}

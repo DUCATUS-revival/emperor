@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 import './Footer.scss';
 
@@ -21,14 +22,22 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="footer__link">
-                <Link to="/" className="text-md">
+                <ScrollLink
+                  to="business"
+                  smooth={true}
+                  offset={-145}
+                  className="text-md">
                   Our Business
-                </Link>
+                </ScrollLink>
               </div>
               <div className="footer__link">
-                <Link to="/" className="text-md">
+                <ScrollLink
+                  to="about"
+                  smooth={true}
+                  offset={-145}
+                  className="text-md">
                   About us
-                </Link>
+                </ScrollLink>
               </div>
               <div className="footer__link">
                 <Link to="/" className="text-md">

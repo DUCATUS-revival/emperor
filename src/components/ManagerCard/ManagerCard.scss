@@ -26,3 +26,19 @@
     line-height: 0.677vw;
   }
 }
+
+@media (max-width: 767px) {
+  .m-card {
+    &__content {
+      padding: 8px 10px;
+    }
+    &__name {
+      font-size: 13.2516px;
+      line-height: 16px;
+    }
+    &__position {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}

@@ -8,3 +8,11 @@
   font-size: 1.042vw;
   line-height: 1.25vw;
 }
+
+@media (max-width: 767px) {
+  .btn {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px 28px;
+  }
+}

@@ -11,3 +11,9 @@
     border: 2px solid #d2bd97;
   }
 }
+
+@media (max-width: 767px) {
+  .input {
+    padding: 18px 16px;
+  }
+}

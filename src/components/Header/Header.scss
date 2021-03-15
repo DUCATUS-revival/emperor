@@ -42,3 +42,56 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .header {
+    &::before {
+      height: 8px;
+    }
+    &__menu {
+      opacity: 0;
+      position: absolute;
+      top: 99%;
+      transition: 0.3s opacity;
+      height: 0;
+      padding: 0;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: space-between;
+      background: $dark;
+      width: 100%;
+      &.open {
+        opacity: 1;
+        padding: 70px 40px 35px;
+        height: calc(100vh - 60px);
+      }
+      &-logo {
+        width: 185px;
+        margin: 0 auto;
+      }
+      &-nav {
+        display: flex;
+        flex-direction: column;
+      }
+      &-link {
+        color: white !important;
+        & + & {
+          margin-top: 25px;
+        }
+        &.active {
+          color: $gold-l !important;
+        }
+      }
+    }
+    &__logo {
+      width: 115px;
+    }
+    &__content {
+      padding: 7px 0;
+    }
+    &__btn {
+      width: 31px;
+      justify-content: center;
+    }
+  }
+}

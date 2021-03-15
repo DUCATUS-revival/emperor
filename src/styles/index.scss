@@ -84,3 +84,27 @@ a {
     }
   }
 }
+.hidden-d {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hidden {
+    &-m {
+      display: none;
+    }
+    &-d {
+      display: flex;
+    }
+  }
+  .row {
+    max-width: 100% !important;
+    padding: 0 15px;
+  }
+  .lines {
+    &::after {
+      background: #caaa61;
+      height: 9px;
+    }
+  }
+}
