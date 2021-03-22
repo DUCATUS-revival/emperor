@@ -37,7 +37,7 @@ const CompCard: React.FC<ICompCard> = ({
           })}>
           {list.map((item, index) => (
             <li key={index} className="c-card__list-item">
-              • {item}
+              <span>•</span> {item}
             </li>
           ))}
         </ul>

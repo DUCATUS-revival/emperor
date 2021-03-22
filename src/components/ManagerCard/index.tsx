@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 import './ManagerCard.scss';
 
 interface IManagerCard {
   img: string;
   name: string;
-  position: string;
+  position: string | ReactElement;
 }
 
 const ManagerCard: React.FC<IManagerCard> = ({ img, name, position }) => {

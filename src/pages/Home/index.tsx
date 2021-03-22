@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import { CompCard, ManagerCard } from '../../components';
 
@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
     {
       bg: 'assets/img/card-1.jpg',
       logo: Card1Img,
-      title: 'Turning potential into possibilities',
+      title: 'Enabling a World of Opportunities',
       list: ['Crowdfunding', 'Network Marketing', 'Market Advisory'],
       btnText: 'Find out more ',
       link: 'https://centuriongm.com/',
@@ -37,10 +37,10 @@ const HomePage: React.FC = () => {
       title: 'Open up to boundless possibilities',
       list: [
         'Blockchain',
-        'Property',
-        'Travel',
         'Franchising',
+        'Property',
         'E-Commerce',
+        'Travel',
         'Merchant Partnerships',
       ],
       btnText: 'Find out more ',
@@ -49,8 +49,8 @@ const HomePage: React.FC = () => {
     {
       bg: 'assets/img/card-3.jpg',
       logo: Card3Img,
-      title: 'Your limitless payment platform',
-      list: ['Crypto Exchange', 'Asset Management', 'Digital Baking Services'],
+      title: 'Embracing the future of finance',
+      list: ['Crypto Exchange', 'Asset Management', 'Digital Banking Services'],
       btnText: 'Find out more ',
       link: 'https://denariusglobal.com/',
     },
@@ -74,7 +74,11 @@ const HomePage: React.FC = () => {
     {
       img: MImg4,
       name: 'Silke Leistner',
-      position: 'Head of International Relations & Sales',
+      position: (
+        <Fragment>
+          Head of&nbsp;International Relations &amp;&nbsp;Sales
+        </Fragment>
+      ),
     },
     {
       img: MImg5,
@@ -95,11 +99,6 @@ const HomePage: React.FC = () => {
       img: MImg8,
       name: 'Abdulkarim Safwan',
       position: 'Head of Strategic Partnerships',
-    },
-    {
-      img: MImg9,
-      name: 'Alex Benson',
-      position: 'Head of AA+ Exchange & Trading',
     },
     {
       img: MImg10,
@@ -123,7 +122,7 @@ const HomePage: React.FC = () => {
             <p>
               We made it our mission to be your partner in building the future
               you deserve.<br></br> Constantly creating and always evolving, we
-              connect you to opportunities anchored ininnovation and powered by
+              connect you to opportunities anchored in innovation and powered by
               the spirit of community.
             </p>
             <p>We are The Emperor Group.</p>
