@@ -4,7 +4,7 @@ import { CompCard, ManagerCard } from '../../components';
 
 import './Home.scss';
 
-import CoinsImg from '../../assets/img/icons/coins.svg';
+import CoinsImg from '../../assets/img/icons/coins.png';
 import DescrImg from '../../assets/img/sections/descr.jpg';
 import Card1Img from '../../assets/img/icons/centurion.svg';
 import Card2Img from '../../assets/img/icons/ducatus.svg';
@@ -17,7 +17,6 @@ import MImg5 from '../../assets/img/managers/5.jpg';
 import MImg6 from '../../assets/img/managers/6.jpg';
 import MImg7 from '../../assets/img/managers/7.jpg';
 import MImg8 from '../../assets/img/managers/8.jpg';
-import MImg9 from '../../assets/img/managers/9.jpg';
 import MImg10 from '../../assets/img/managers/10.jpg';
 import MImg11 from '../../assets/img/managers/11.jpg';
 
@@ -107,7 +106,7 @@ const HomePage: React.FC = () => {
     },
     {
       img: MImg11,
-      name: 'Sanjay Bhoolaavel',
+      name: 'Sanjay Bhoola',
       position: 'Head of Ducatus Property & Travel',
     },
   ];

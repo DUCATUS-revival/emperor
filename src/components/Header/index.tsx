@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import './Header.scss';
 
-import LogoImg from '../../assets/img/icons/logo.png';
+import LogoImg from '../../assets/img/icons/logo.svg';
 import NavOpenImg from '../../assets/img/icons/nav-open.svg';
 import NavCloseImg from '../../assets/img/icons/nav-close.svg';
 

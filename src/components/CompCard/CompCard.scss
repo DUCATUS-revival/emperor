@@ -8,6 +8,9 @@
       height: 4.948vw;
       display: flex;
       justify-content: center;
+      img {
+        height: 100%;
+      }
     }
   }
   &__content {
@@ -16,7 +19,7 @@
   }
   &__title {
     margin: 2.344vw auto 1.823vw;
-    max-width: 20.135vw;
+    max-width: 25.135vw;
     color: white;
     text-align: center;
   }
@@ -33,6 +36,7 @@
     }
     &-item {
       width: max-content;
+      min-width: 140px;
       margin-bottom: 15px;
     }
   }
