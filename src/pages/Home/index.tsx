@@ -27,6 +27,7 @@ import Adv4 from '../../assets/img/advisory/advisor-4.png';
 import Adv5 from '../../assets/img/advisory/advisor-5.png';
 import Adv6 from '../../assets/img/advisory/advisor-6.png';
 import Adv7 from '../../assets/img/advisory/advisor-7.png';
+import Adv8 from '../../assets/img/advisory/advisor-8.png';
 
 const HomePage: React.FC = () => {
   const cards = [
@@ -120,34 +121,6 @@ const HomePage: React.FC = () => {
   ];
   const advisory = [
     {
-      name: 'Rashid Al Haptoor',
-      position: 'CEO and President of RKHBC, Al Habtoor Trading Enterprises (HTE) LLC and RKH Investments',
-      img: Adv1,
-      bio:
-        <Fragment>
-          Born into one of the largest business families and raised in Dubai, United Arab Emirates, Mr. Al Habtoor's
-          ability to recognise opportunities and capitalise on them has made him a much sought after Strategic Business
-          Partner. His experience spans a broad range of business portfolios which include Oil & Gas, Construction &
-          Engineering, Automotive, Real Estate, Information Technology, Software Systems, Facilities Management,
-          Communications and Food & Beverage, along with over one hundred Partnerships and Joint Ventures with companies
-          both local and international
-          <br/>
-          <br/>
-          Mr. Al Habtoor graduated from George Washington University with a Bachelor of Science degree in Operations
-          Research and Computer Science. In the early 80s, he started his first business with a vision to contribute to
-          the developing economy of the United Arab Emirates. Mr. Al Habtoor has received a Leadership Award from the
-          Dubai Chamber of Commerce and Industry and also been honoured by the Dubai Business Council four times, with
-          his last award being for “Strategic Partnership in UAE's developing Economy".
-          <br/>
-          <br/>
-          Mr. Al Habtoor’s vision is to continue the growth of UAE’s Economy by maintaining the focus on Strategic
-          Partnership through various business channels including Business Development of New Projects, Establishing
-          Robust Government Relations & Business Consultation via his company, RKH-BC.com. An advocate of supporting the
-          local community, Mr Al Habtoor's philanthropic endeavors are focused on simultaneously nurturing both local
-          and international charity organisations.
-        </Fragment>
-    },
-    {
       name: 'Dr. Hatem Al Shanfari ',
       position: 'Entrepreneur, Educator and Member of the Board of Governors of the Central Bank of Oman',
       img: Adv2,
@@ -169,70 +142,6 @@ const HomePage: React.FC = () => {
           Dr. Al Shanfari holds a doctorate degree in Economics from the University of Strathclyde in Glasgow,
           Scotland. He also earned an MA degree in Economic Planning from the Institute of Social Studies in The Hague,
           the Netherlands and B.Sc in Engineering from Washington University in St. Louis, Missouri, USA.
-        </Fragment>
-    },
-    {
-      name: 'Prof. Paolo Cianchi',
-      position: 'Technology Entreprenuer and Digital Transformation Expert',
-      img: Adv3,
-      bio: <Fragment>
-        Prof. Cianchi is a passionate entrepreneur that has strongly contributed to bring Intelligent Systems and Low
-        Code thinking into mainstream Real-Time Enterprise and business integration through Digital Transformation. He
-        promotes the vision among customers, partners and investors by inventing strategic Distributed Intelligent
-        Systems products and application scenarios based on cutting edge technologies including Payments and Blockchain,
-        IoT, AlgorithMIX (AI-ML and mechanistic math models) and Collaborative UX, all orchestrated through the NEGENTIS
-        process-centric middleware software platform.
-        <br/>
-        <br/>
-        Prof. Cianchi graduated Summa Cum Laude in Electronic Engineering at the University of Florence and holds a PhD
-        in Systems Engineering. He currently serves as CEO and CTO of some startups he has co-founded in the software,
-        digital health, fintech and renewable industries. He is also a CTO of Scrypta Foundation to evolve its
-        blockchain into the next-generation DApp fully fledged operating system.
-        <br/>
-        <br/>
-        Recently, he was appointed as Head of the Engineering Department and executive member of the Academic Board of
-        a private university based in Rome aiming to offer highly qualified education programs to students from abroad
-        (mainly Asia, Africa and MiddleEast).
-      </Fragment>
-    },
-    {
-      name: 'Dr. Omar Ibrahim Khader',
-      position: 'Businessman and Economic Advisor to HE Sheikh Khalid Al Hamed',
-      img: Adv4,
-      bio:
-        <Fragment>
-          A seasoned businessman with extensive experience in consultancy and project management, Dr. Khader has over
-          27 fruitful years of doing business in the GCC and MENA regions. Through his expertise, he was appointed as a
-          Business and Economic Advisor to His Excellency Sheikh Khalil Al Hamed.
-          <br/>
-          <br/>
-          Educated in the United States, he graduated with a degree in Computer Engineering from San Diego State
-          University in California and went on to finish his Master's degree at Campbell University. It is also in the
-          US where he obtained his PhD in International Business.
-          <br/>
-          <br/>
-          He started businesses in consultancy and quantity surveying in the US and worked as a consultant for various
-          projects, including being a member of the Local Consultancy Committee of the California Consultant Group. From
-          the US, he has brought his expertise to the gulf region where he helped develop businesses in various
-          industies, ranging from marine maintenance work and water systems, to housing and agricultural projects.
-        </Fragment>
-    },
-    {
-      name: 'Evan Lim',
-      position: 'Senior Vice President at DBS Bank',
-      img: Adv5,
-      bio:
-        <Fragment>
-          A highly experienced Asset Management and Private Equity professional, Mr. Lim's expertise includes managing
-          and driving product, marketing and distribution for Asian and Global markets. Mr. Lim is a trusted finance
-          professional providing investment solutions via fixed income, equity and private equity structures while
-          building and fostering regional and global relationships.
-          <br/>
-          <br/>
-          A graduate of Rutgers University with a degree in Accounting and Finance, Mr. Lim's professional background
-          includes stints at Goldman Sachs in New York, UBS Singapore, Legg Mason, and Mandiri Development as CEO. He is
-          currently a Senior Vice President at DBS Bank, a leading multinational financial services group headquartered
-          in Singapore.
         </Fragment>
     },
     {
@@ -266,6 +175,98 @@ const HomePage: React.FC = () => {
         </Fragment>
     },
     {
+      name: 'Prof. Paolo Cianchi',
+      position: 'Technology Entreprenuer and Digital Transformation Expert',
+      img: Adv3,
+      bio: <Fragment>
+        Prof. Cianchi is a passionate entrepreneur that has strongly contributed to bring Intelligent Systems and Low
+        Code thinking into mainstream Real-Time Enterprise and business integration through Digital Transformation. He
+        promotes the vision among customers, partners and investors by inventing strategic Distributed Intelligent
+        Systems products and application scenarios based on cutting edge technologies including Payments and Blockchain,
+        IoT, AlgorithMIX (AI-ML and mechanistic math models) and Collaborative UX, all orchestrated through the NEGENTIS
+        process-centric middleware software platform.
+        <br/>
+        <br/>
+        Prof. Cianchi graduated Summa Cum Laude in Electronic Engineering at the University of Florence and holds a PhD
+        in Systems Engineering. He currently serves as CEO and CTO of some startups he has co-founded in the software,
+        digital health, fintech and renewable industries. He is also a CTO of Scrypta Foundation to evolve its
+        blockchain into the next-generation DApp fully fledged operating system.
+        <br/>
+        <br/>
+        Recently, he was appointed as Head of the Engineering Department and executive member of the Academic Board of
+        a private university based in Rome aiming to offer highly qualified education programs to students from abroad
+        (mainly Asia, Africa and MiddleEast).
+      </Fragment>
+    },
+    {
+      name: 'Rashid Al Haptoor',
+      position: 'CEO and President of RKHBC, Al Habtoor Trading Enterprises (HTE) LLC and RKH Investments',
+      img: Adv1,
+      bio:
+        <Fragment>
+          Born into one of the largest business families and raised in Dubai, United Arab Emirates, Mr. Al Habtoor's
+          ability to recognise opportunities and capitalise on them has made him a much sought after Strategic Business
+          Partner. His experience spans a broad range of business portfolios which include Oil & Gas, Construction &
+          Engineering, Automotive, Real Estate, Information Technology, Software Systems, Facilities Management,
+          Communications and Food & Beverage, along with over one hundred Partnerships and Joint Ventures with companies
+          both local and international
+          <br/>
+          <br/>
+          Mr. Al Habtoor graduated from George Washington University with a Bachelor of Science degree in Operations
+          Research and Computer Science. In the early 80s, he started his first business with a vision to contribute to
+          the developing economy of the United Arab Emirates. Mr. Al Habtoor has received a Leadership Award from the
+          Dubai Chamber of Commerce and Industry and also been honoured by the Dubai Business Council four times, with
+          his last award being for “Strategic Partnership in UAE's developing Economy".
+          <br/>
+          <br/>
+          Mr. Al Habtoor’s vision is to continue the growth of UAE’s Economy by maintaining the focus on Strategic
+          Partnership through various business channels including Business Development of New Projects, Establishing
+          Robust Government Relations & Business Consultation via his company, RKH-BC.com. An advocate of supporting the
+          local community, Mr Al Habtoor's philanthropic endeavors are focused on simultaneously nurturing both local
+          and international charity organisations.
+        </Fragment>
+    },
+    {
+      name: 'Evan Lim',
+      position: 'Senior Vice President at DBS Bank',
+      img: Adv5,
+      bio:
+        <Fragment>
+          A highly experienced Asset Management and Private Equity professional, Mr. Lim's expertise includes managing
+          and driving product, marketing and distribution for Asian and Global markets. Mr. Lim is a trusted finance
+          professional providing investment solutions via fixed income, equity and private equity structures while
+          building and fostering regional and global relationships.
+          <br/>
+          <br/>
+          A graduate of Rutgers University with a degree in Accounting and Finance, Mr. Lim's professional background
+          includes stints at Goldman Sachs in New York, UBS Singapore, Legg Mason, and Mandiri Development as CEO. He is
+          currently a Senior Vice President at DBS Bank, a leading multinational financial services group headquartered
+          in Singapore.
+        </Fragment>
+    },
+    {
+      name: 'Dr. Omar Ibrahim Khader',
+      position: 'Businessman and Economic Advisor to HE Sheikh Khalid Al Hamed',
+      img: Adv4,
+      bio:
+        <Fragment>
+          A seasoned businessman with extensive experience in consultancy and project management, Dr. Khader has over
+          27 fruitful years of doing business in the GCC and MENA regions. Through his expertise, he was appointed as a
+          Business and Economic Advisor to His Excellency Sheikh Khalil Al Hamed.
+          <br/>
+          <br/>
+          Educated in the United States, he graduated with a degree in Computer Engineering from San Diego State
+          University in California and went on to finish his Master's degree at Campbell University. It is also in the
+          US where he obtained his PhD in International Business.
+          <br/>
+          <br/>
+          He started businesses in consultancy and quantity surveying in the US and worked as a consultant for various
+          projects, including being a member of the Local Consultancy Committee of the California Consultant Group. From
+          the US, he has brought his expertise to the gulf region where he helped develop businesses in various
+          industies, ranging from marine maintenance work and water systems, to housing and agricultural projects.
+        </Fragment>
+    },
+    {
       name: 'Jürgen Kob',
       position: 'Fintech and Asset Management Consultant',
       img: Adv7,
@@ -290,6 +291,24 @@ const HomePage: React.FC = () => {
           and Wealth Management.
         </Fragment>
     },
+    {
+      name: 'Joseph Koren',
+      position: 'Business Leader and Cyber Security Expert',
+      img: Adv8,
+      bio: <Fragment>
+        After 35 years in the jewelry industry as CEO of Nissko Jewelry and Daniel K, Mr. Koren cultivated relationships
+        all over the world, ranging from big chain department store executives to VIP clients to Royal Family Members.
+        He specializes in networking, with a focus on connecting businesses with investors, buyers, and strategic
+        partners. Mr. Koren serves as Board Member in various organizations and charities, namely New York Center for
+        Child Development, Soroka Medical Center, and Foundation for Ethnic Understanding.
+        <br/>
+        <br/>
+        Currently, he's a USA Business Development Representative for Israel-based cyber security company Gyptol. It's
+        the only software in the world that detects and remediates misconfigurations (human errors and default settings)
+        among the organizations assets, which are responsible for approximately 40% of all successful cyber attacks. Mr.
+        Koren is very passionate about the Hi-Tech industry and is excited about the endless possibilities it presents.
+      </Fragment>
+    }
   ];
 
   return (
