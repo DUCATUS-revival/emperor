@@ -129,7 +129,7 @@ const HomePage: React.FC = () => {
           One of Oman's leading economists, Dr. Hatem Al-Shanfari is Assistant Professor in the Department of Economics
           and Finance at the College of Commerce and Economics at Sultan Qaboos University. His research interest is
           focused on asset pricing models, risk management, financial markets, management of financial institutions and
-          Trade in Services (GATS). He has published number of articles in referred international journals and
+          Trade in Services (GATS). He has published a number of articles in referred international journals and
           participated in a number of professional international conferences.
           <br/>
           <br/>
@@ -139,14 +139,14 @@ const HomePage: React.FC = () => {
           Industry; and research associate of the Economic Research Forum for the Arab Countries, Iran and Turkey.
           <br/>
           <br/>
-          Dr. Al Shanfari holds a doctorate degree in Economics from the University of Strathclyde in Glasgow,
-          Scotland. He also earned an MA degree in Economic Planning from the Institute of Social Studies in The Hague,
-          the Netherlands and B.Sc in Engineering from Washington University in St. Louis, Missouri, USA.
+          Dr. Al Shanfari holds a doctorate degree in Economics from the University of Strathclyde in Glasgow, Scotland.
+          He also earned an MA degree in Economic Planning from the Institute of Social Studies in The Hague, the
+          Netherlands and B.Sc in Engineering from Washington University in St. Louis, Missouri, USA.
         </Fragment>
     },
     {
       name: 'His Excellency Tan Sri Dato Professor Joseph Adaikalam',
-      position: 'Educationist, Philantrhopist and Economic Advisor to the Government of Malaysia',
+      position: 'Educationist, Philanthropist and Economic Advisor to the Government of Malaysia',
       img: Adv6,
       bio:
         <Fragment>
@@ -156,11 +156,11 @@ const HomePage: React.FC = () => {
           Economic Advisory Council, Prime Minister's Department.
           <br/>
           <br/>
-          As an educationist, His Excellency Tan Sri is a pioneer in the private higher education sector and has over
-          35 years experience in international education. He was also the First Indian Vice Chancellor to be appointed
-          by the Government of Malaysia. As a social entrepreneur and philanthropist. His Excellency has assisted
-          thousands of students from Asia, Africa and Central Asia through the Binary Global Scholarship that he
-          established in 1994.
+          As an educationist, His Excellency Tan Sri is a pioneer in the private higher education sector and has over 35
+          years experience in international education. He was also the First Indian Vice Chancellor to be appointed by
+          the Government of Malaysia. As a social entrepreneur and philanthropist. His Excellency has assisted thousands
+          of students from Asia, Africa and Central Asia through the Binary Global Scholarship that he established in
+          1994.
           <br/>
           <br/>
           He has been conferred numerous awards at international and national levels. Among these includes Asia Leading
@@ -176,7 +176,7 @@ const HomePage: React.FC = () => {
     },
     {
       name: 'Prof. Paolo Cianchi',
-      position: 'Technology Entreprenuer and Digital Transformation Expert',
+      position: 'Technology Entrepreneur and Digital Transformation Expert',
       img: Adv3,
       bio: <Fragment>
         Prof. Cianchi is a passionate entrepreneur that has strongly contributed to bring Intelligent Systems and Low
@@ -193,13 +193,13 @@ const HomePage: React.FC = () => {
         blockchain into the next-generation DApp fully fledged operating system.
         <br/>
         <br/>
-        Recently, he was appointed as Head of the Engineering Department and executive member of the Academic Board of
-        a private university based in Rome aiming to offer highly qualified education programs to students from abroad
+        Recently, he was appointed as Head of the Engineering Department and executive member of the Academic Board of a
+        private university based in Rome aiming to offer highly qualified education programs to students from abroad
         (mainly Asia, Africa and MiddleEast).
       </Fragment>
     },
     {
-      name: 'Rashid Al Haptoor',
+      name: 'Rashid Al Habtoor',
       position: 'CEO and President of RKHBC, Al Habtoor Trading Enterprises (HTE) LLC and RKH Investments',
       img: Adv1,
       bio:
@@ -209,14 +209,14 @@ const HomePage: React.FC = () => {
           Partner. His experience spans a broad range of business portfolios which include Oil & Gas, Construction &
           Engineering, Automotive, Real Estate, Information Technology, Software Systems, Facilities Management,
           Communications and Food & Beverage, along with over one hundred Partnerships and Joint Ventures with companies
-          both local and international
+          both local and international.
           <br/>
           <br/>
           Mr. Al Habtoor graduated from George Washington University with a Bachelor of Science degree in Operations
           Research and Computer Science. In the early 80s, he started his first business with a vision to contribute to
           the developing economy of the United Arab Emirates. Mr. Al Habtoor has received a Leadership Award from the
           Dubai Chamber of Commerce and Industry and also been honoured by the Dubai Business Council four times, with
-          his last award being for “Strategic Partnership in UAE's developing Economy".
+          his last award being for "Strategic Partnership in UAE's developing Economy".
           <br/>
           <br/>
           Mr. Al Habtoor’s vision is to continue the growth of UAE’s Economy by maintaining the focus on Strategic
@@ -250,8 +250,8 @@ const HomePage: React.FC = () => {
       img: Adv4,
       bio:
         <Fragment>
-          A seasoned businessman with extensive experience in consultancy and project management, Dr. Khader has over
-          27 fruitful years of doing business in the GCC and MENA regions. Through his expertise, he was appointed as a
+          A seasoned businessman with extensive experience in consultancy and project management, Dr. Khader has over 27
+          fruitful years of doing business in the GCC and MENA regions. Through his expertise, he was appointed as a
           Business and Economic Advisor to His Excellency Sheikh Khalil Al Hamed.
           <br/>
           <br/>
@@ -272,8 +272,8 @@ const HomePage: React.FC = () => {
       img: Adv7,
       bio:
         <Fragment>
-          Jürgen is a consultant with 30 years of experience in the traditional financial industry and asset
-          management. He has worked for a variety of banks in Germany, Luxembourg and Switzerland.
+          Jürgen is a consultant with 30 years of experience in the traditional financial industry and asset management.
+          He has worked for a variety of banks in Germany, Luxembourg and Switzerland.
           <br/>
           <br/>
           Educated in Business and Economics in Germany, Jürgen went on to build a prolific career in banking and
@@ -283,12 +283,12 @@ const HomePage: React.FC = () => {
           Fintech and blockchain/cryptocurrencies.
           <br/>
           <br/>
-          Today, he serves companies like Denarius in Crypto Valley Zug as a board member in strategic issues. Jürgen
-          is a member of DFJV - Deutscher Fachjournalisten Verband (German Assocation for Specialized Journalists),
-          FINTECH Circle Institute, London, Bitcoin Association Switzerland, Crypto Valley Association, Crypto Valley
-          Labs Zug and is an advocate of Disruption Disciples. He continues to share his wealth of experience as an
-          adviser and consultant on subjects such as Digital Finance & Digital Leadership, Blockchain & Cryptocurrencies
-          and Wealth Management.
+          Today, he serves companies like Denarius in Crypto Valley Zug as a board member in strategic issues. Jürgen is
+          a member of DFJV - Deutscher Fachjournalisten Verband (German Assocation for Specialized Journalists), FINTECH
+          Circle Institute, London, Bitcoin Association Switzerland, Crypto Valley Association, Crypto Valley Labs Zug
+          and is an advocate of Disruption Disciples. He continues to share his wealth of experience as an adviser and
+          consultant on subjects such as Digital Finance & Digital Leadership, Blockchain & Cryptocurrencies and Wealth
+          Management.
         </Fragment>
     },
     {
