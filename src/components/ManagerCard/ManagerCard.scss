@@ -1,10 +1,14 @@
 @import '../../styles/vars';
 .m-card {
-  width: 100%;
+  margin: 10px;
+  width: 221px;
+  height: 257px;
   position: relative;
+
   img {
     width: 100%;
   }
+
   &__content {
     position: absolute;
     bottom: 0;
@@ -15,12 +19,14 @@
     text-align: center;
     min-height: 3.385vw;
   }
+
   &__name {
     font-size: 17px;
     line-height: 21px;
     color: $yellow;
     margin-bottom: 0.26vw;
   }
+
   &__position {
     font-size: 11px;
     line-height: 13px;
@@ -36,6 +42,28 @@
       font-size: 13.2516px;
       line-height: 16px;
     }
+    &__position {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .m-card {
+    margin: 5px;
+    width: 171px;
+    height: 200px;
+
+    &__content {
+      padding: 8px 10px;
+    }
+
+    &__name {
+      font-size: 13.2516px;
+      line-height: 16px;
+    }
+
     &__position {
       font-size: 12px;
       line-height: 15px;
