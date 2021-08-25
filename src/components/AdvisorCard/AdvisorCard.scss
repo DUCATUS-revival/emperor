@@ -1,0 +1,59 @@
+.adv-card {
+  margin: 39px 20px 20px;
+  width: 277px;
+
+  @media (max-width: 750px) {
+    width: 164px;
+  }
+
+  img {
+    margin: 0 12px 32px;
+    width: 245px;
+
+    @media (max-width: 750px) {
+      width: 146px;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 33px;
+    text-transform: uppercase;
+
+    @media (max-width: 750px) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  &__position {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    @media (max-width: 750px) {
+      font-size: 10px;
+      line-height: 13px;
+    }
+  }
+
+  .button {
+    margin-top: 12px;
+    width: 85px;
+    height: 20px;
+    background: #4B71B3;
+    border-radius: 11px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      margin: auto auto;
+      text-align: center;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}

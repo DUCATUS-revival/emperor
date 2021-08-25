@@ -1,0 +1,75 @@
+.modal {
+  padding: 40px 10%;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #FDF7E9;
+  color: #000;
+  
+  @media (max-width: 750px) {
+    padding: 40px 15px;
+    flex-direction: column;
+  }
+
+  img {
+    margin-right: 5%;
+
+    @media (max-width: 750px) {
+      margin: 0 0 36px;
+      width: 200px;
+    }
+  }
+  
+  &__content {
+    &__name {
+      margin-bottom: 44px;
+      font-family: 'MB', sans-serif;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 50px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      @media (max-width: 750px) {
+        margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 30px;
+      }
+    }
+    
+    &__position {
+      margin-bottom: 80px;
+      font-family: 'MR', sans-serif;
+      font-size: 28px;
+      line-height: 118.9%;
+      letter-spacing: 0.03em;
+
+      @media (max-width: 750px) {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    
+    &__bio {
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0.03em;
+
+      @media (max-width: 750px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .button {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
