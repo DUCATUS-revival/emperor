@@ -1,0 +1,23 @@
+@import '../../styles/vars';
+
+.corporate-governance {
+  &__preview {
+    padding: 4.427vw 0 7.813vw;
+    background-image: url(../../assets/img/sections/contact-preview.jpg);
+    background-size: cover;
+  }
+  &__content {
+    padding: 77px 168px 0;
+  }
+}
+
+@media (max-width: 901px) {
+  .corporate-governance {
+    &__preview {
+      padding: 42px 0;
+      &-title {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.block {
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 36px;
+  color: #8b2230;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size: 23px;
+  line-height: 36px;
+  color: #8b2230;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 23px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.paragraph {
+  margin-bottom: 35px;
+}
+
+.ol {
+  margin-top: 20px;
+  list-style-type: lower-alpha;
+  margin-left: 24px;
+  text-align: left;
+  li {
+    padding-left: 40px;
+    margin-bottom: 10px;
+  }
+}
