@@ -33,7 +33,7 @@ const Footer = () => {
               </div>
               <div className='footer__link'>
                 <CorporateGovernancePopover baseDirection={false}>
-                  <div className='text-md'>Corporate Governance</div>
+                  <a className='text-md'>Corporate Governance</a>
                 </CorporateGovernancePopover>
               </div>
               <div className='footer__link'>

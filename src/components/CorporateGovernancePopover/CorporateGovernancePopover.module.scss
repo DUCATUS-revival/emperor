@@ -3,13 +3,6 @@
 
 .wrapper {
   position: relative;
-  span {
-    * {
-      @include b('mobile') {
-        font-size: 12px !important;
-      }
-    }
-  }
 }
 
 .popover {
