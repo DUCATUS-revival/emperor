@@ -6,9 +6,10 @@ import styles from './CorporateGovernancePopover.module.scss'
 interface Props {
   className?: string
   menuItemClick?: () => void
+  baseDirection?: boolean
 }
 
-export const CorporateGovernancePopover: FC<Props> = ({ menuItemClick, className, children }) => {
+export const CorporateGovernancePopover: FC<Props> = ({ menuItemClick, baseDirection = true, className, children }) => {
   const [popoverOpen, setPopoverOpen] = useState<boolean>(false)
   const ref = useRef<HTMLDivElement>(null)
 
@@ -24,7 +25,7 @@ export const CorporateGovernancePopover: FC<Props> = ({ menuItemClick, className
     <div ref={ref} className={`${styles.wrapper} ${className}`}>
       <span onClick={openPopover}>{children}</span>
       {popoverOpen && (
-        <div className={styles.popover}>
+        <div className={`${styles.popover} ${baseDirection ? styles.popoverDown : styles.popoverUp}`}>
           <NavLink to='/corporate_governance/anti_bribery_policy' onClick={closePopover}>
             Anti-Bribery Policy
           </NavLink>
@@ -39,7 +40,6 @@ export const CorporateGovernancePopover: FC<Props> = ({ menuItemClick, className
           </NavLink>
         </div>
       )}
-      
     </div>
   )
 }
