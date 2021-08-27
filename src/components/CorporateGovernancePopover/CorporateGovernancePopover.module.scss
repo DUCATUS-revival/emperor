@@ -3,13 +3,14 @@
 
 .wrapper {
   position: relative;
-  span {
-    * {
-      @include b('mobile') {
-        font-size: 12px !important;
-      }
-    }
-  }
+  cursor: pointer;
+  // span {
+  //   * {
+  //     @include b('mobile') {
+  //       font-size: 12px !important;
+  //     }
+  //   }
+  // }
 }
 
 .popover {
