@@ -22,15 +22,17 @@
   top: 50px;
   background-color: #000;
   max-width: 300px;
-  padding: 25px 35px 20px 15px;
+  padding: 25px 15px 15px 15px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+
   a {
-    display: block;
     margin-bottom: 15px;
-    line-height: 21px;
     color: #fff;
-    font-style: normal;
-    font-weight: normal;
     font-size: 17px;
+    line-height: 1.2;
+
     &:hover {
       color: #d3d3d3;
     }
