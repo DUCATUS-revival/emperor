@@ -1,23 +1,24 @@
 @import '../../styles/vars';
+@import '../../styles/mixins/media';
 
 .corporate-governance {
   &__preview {
     padding: 4.427vw 0 7.813vw;
     background-image: url(../../assets/img/sections/contact-preview.jpg);
     background-size: cover;
+    @include b(tablet) {
+      padding: 42px 0;
+    }
+    &-title {
+      @include b(tablet) {
+        text-align: center;
+      }
+    }
   }
   &__content {
     padding: 77px 168px 0;
-  }
-}
-
-@media (max-width: 901px) {
-  .corporate-governance {
-    &__preview {
-      padding: 42px 0;
-      &-title {
-        text-align: center;
-      }
+    @include b(tablet) {
+      padding: 30px 20px 0;
     }
   }
 }

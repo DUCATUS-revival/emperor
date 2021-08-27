@@ -33,8 +33,8 @@ const Header = () => {
             <NavHashLink smooth={true} to='/#about' className='text-md header__link'>
               About Us
             </NavHashLink>
-            <CorporateGovernancePopover>
-              <div className='text-md header__link'>Corporate Governance</div>
+            <CorporateGovernancePopover className='header__link'>
+              <div className='text-md'>Corporate Governance</div>
             </CorporateGovernancePopover>
             <NavHashLink exact to='/contact' className='text-md header__link'>
               Contact
@@ -62,6 +62,9 @@ const Header = () => {
           >
             About Us
           </NavHashLink>
+          <CorporateGovernancePopover className='h1 header__menu-link' menuItemClick={() => setNavbarOpen(false)}>
+            <div>Corporate Governance</div>
+          </CorporateGovernancePopover>
           <NavHashLink onClick={() => setNavbarOpen(false)} exact to='/contact' className=' h1 header__menu-link'>
             Contact
           </NavHashLink>

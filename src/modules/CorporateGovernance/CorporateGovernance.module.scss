@@ -1,3 +1,6 @@
+@import '../../styles/_vars';
+@import '../../styles/mixins/media';
+
 .block {
   font-style: normal;
   font-weight: normal;
@@ -6,23 +9,34 @@
 
 .title {
   font-size: 36px;
-  color: #8b2230;
+  color: $red;
   margin-bottom: 20px;
   line-height: 1;
+  @include b(tablet) {
+    font-size: 24px;
+  }
 }
 
 .subtitle {
   font-size: 23px;
   line-height: 36px;
-  color: #8b2230;
+  color: $red;
   margin-top: 35px;
   margin-bottom: 10px;
+  @include b(tablet) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .text {
   font-size: 23px;
   line-height: 36px;
   color: #000000;
+  @include b(tablet) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .paragraph {
@@ -31,6 +45,7 @@
 
 .ol {
   margin-top: 20px;
+  margin-bottom: 40px;
   list-style-type: lower-alpha;
   margin-left: 24px;
   text-align: left;

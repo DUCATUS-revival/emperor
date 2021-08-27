@@ -1,32 +1,45 @@
-import { FC, useState } from 'react'
+import { FC, useRef, useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 import styles from './CorporateGovernancePopover.module.scss'
 
-export const CorporateGovernancePopover: FC = ({ children }) => {
+interface Props {
+  className?: string
+  menuItemClick?: () => void
+}
+
+export const CorporateGovernancePopover: FC<Props> = ({ menuItemClick, className, children }) => {
   const [popoverOpen, setPopoverOpen] = useState<boolean>(false)
+  const ref = useRef<HTMLDivElement>(null)
 
   const openPopover = () => setPopoverOpen(true)
-  const closePopover = () => setPopoverOpen(false)
+  const closePopover = () => {
+    menuItemClick && menuItemClick()
+    setPopoverOpen(false)
+  }
+
+  useOnClickOutside(ref, closePopover)
 
   return (
-    <div className={styles.wrapper}>
+    <div ref={ref} className={`${styles.wrapper} ${className}`}>
       <span onClick={openPopover}>{children}</span>
       {popoverOpen && (
-        <div className={styles.popover} onClick={closePopover}>
-          <NavLink to='/corporate_governance/anti_bribery_policy'>
-            <p>Anti-Bribery Policy</p>
+        <div className={styles.popover}>
+          <NavLink to='/corporate_governance/anti_bribery_policy' onClick={closePopover}>
+            Anti-Bribery Policy
           </NavLink>
-          <NavLink to='/corporate_governance/code_of_conduct'>
-            <p>Code Of Conduct</p>
+          <NavLink to='/corporate_governance/code_of_conduct' onClick={closePopover}>
+            Code Of Conduct
           </NavLink>
-          <NavLink to='/corporate_governance/risk_management_policy'>
-            <p>Risk Management Policy </p>
+          <NavLink to='/corporate_governance/risk_management_policy' onClick={closePopover}>
+            Risk Management Policy
           </NavLink>
-          <NavLink to='/corporate_governance/tax_management_policy'>
-            <p>Responsible Tax Management Policy</p>
+          <NavLink to='/corporate_governance/tax_management_policy' onClick={closePopover}>
+            Responsible Tax Management Policy
           </NavLink>
         </div>
       )}
+      
     </div>
   )
 }
