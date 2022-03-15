@@ -71,8 +71,8 @@ const HomePage: React.FC = () => {
     },
     {
       img: MImg2,
-      name: 'Bertie Worth',
-      position: 'Chief Financial Officer',
+      name: 'Babar Chaudhry',
+      position: 'Group CFO',
     },
     {
       img: MImg3,
