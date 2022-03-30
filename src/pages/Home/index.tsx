@@ -99,16 +99,6 @@ const HomePage: React.FC = () => {
       position: 'Head of Global Support',
     },
     {
-      img: MImg7,
-      name: 'Frances Sy',
-      position: 'Exec. Assistant to Exec. Chairman',
-    },
-    {
-      img: MImg8,
-      name: 'Abdulkarim Safwan',
-      position: 'Head of Strategic Partnerships',
-    },
-    {
       img: MImg10,
       name: 'Sheilah Manalo',
       position: 'Head of Communications',
@@ -224,46 +214,6 @@ const HomePage: React.FC = () => {
           Robust Government Relations & Business Consultation via his company, RKH-BC.com. An advocate of supporting the
           local community, Mr Al Habtoor's philanthropic endeavors are focused on simultaneously nurturing both local
           and international charity organisations.
-        </Fragment>
-    },
-    {
-      name: 'Evan Lim',
-      position: 'Senior Vice President at DBS Bank',
-      img: Adv5,
-      bio:
-        <Fragment>
-          A highly experienced Asset Management and Private Equity professional, Mr. Lim's expertise includes managing
-          and driving product, marketing and distribution for Asian and Global markets. Mr. Lim is a trusted finance
-          professional providing investment solutions via fixed income, equity and private equity structures while
-          building and fostering regional and global relationships.
-          <br/>
-          <br/>
-          A graduate of Rutgers University with a degree in Accounting and Finance, Mr. Lim's professional background
-          includes stints at Goldman Sachs in New York, UBS Singapore, Legg Mason, and Mandiri Development as CEO. He is
-          currently a Senior Vice President at DBS Bank, a leading multinational financial services group headquartered
-          in Singapore.
-        </Fragment>
-    },
-    {
-      name: 'Dr. Omar Ibrahim Khader',
-      position: 'Businessman and Economic Advisor to HE Sheikh Khalid Al Hamed',
-      img: Adv4,
-      bio:
-        <Fragment>
-          A seasoned businessman with extensive experience in consultancy and project management, Dr. Khader has over 27
-          fruitful years of doing business in the GCC and MENA regions. Through his expertise, he was appointed as a
-          Business and Economic Advisor to His Excellency Sheikh Khalil Al Hamed.
-          <br/>
-          <br/>
-          Educated in the United States, he graduated with a degree in Computer Engineering from San Diego State
-          University in California and went on to finish his Master's degree at Campbell University. It is also in the
-          US where he obtained his PhD in International Business.
-          <br/>
-          <br/>
-          He started businesses in consultancy and quantity surveying in the US and worked as a consultant for various
-          projects, including being a member of the Local Consultancy Committee of the California Consultant Group. From
-          the US, he has brought his expertise to the gulf region where he helped develop businesses in various
-          industies, ranging from marine maintenance work and water systems, to housing and agricultural projects.
         </Fragment>
     },
     {
