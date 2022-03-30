@@ -17,8 +17,6 @@ import MImg5 from '../../assets/img/managers/5.jpg';
 import MImg6 from '../../assets/img/managers/6.jpg';
 import MImg7 from '../../assets/img/managers/7.jpg';
 import MImg8 from '../../assets/img/managers/8.jpg';
-import MImg10 from '../../assets/img/managers/10.jpg';
-import MImg11 from '../../assets/img/managers/11.jpg';
 import Line from '../../assets/img/advisory/line.png';
 import Adv1 from '../../assets/img/advisory/advisor-1.png';
 import Adv2 from '../../assets/img/advisory/advisor-2.png';
@@ -26,8 +24,6 @@ import Adv3 from '../../assets/img/advisory/advisor-3.png';
 import Adv4 from '../../assets/img/advisory/advisor-4.png';
 import Adv5 from '../../assets/img/advisory/advisor-5.png';
 import Adv6 from '../../assets/img/advisory/advisor-6.png';
-import Adv7 from '../../assets/img/advisory/advisor-7.png';
-import Adv8 from '../../assets/img/advisory/advisor-8.png';
 
 const HomePage: React.FC = () => {
   const cards = [
@@ -99,12 +95,12 @@ const HomePage: React.FC = () => {
       position: 'Head of Global Support',
     },
     {
-      img: MImg10,
+      img: MImg7,
       name: 'Sheilah Manalo',
       position: 'Head of Communications',
     },
     {
-      img: MImg11,
+      img: MImg8,
       name: 'Sanjay Bhoola',
       position: 'Head of Ducatus Property & Travel',
     },
@@ -113,7 +109,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Dr. Hatem Al Shanfari ',
       position: 'Entrepreneur, Educator and Member of the Board of Governors of the Central Bank of Oman',
-      img: Adv2,
+      img: Adv1,
       bio:
         <Fragment>
           One of Oman's leading economists, Dr. Hatem Al-Shanfari is Assistant Professor in the Department of Economics
@@ -137,7 +133,7 @@ const HomePage: React.FC = () => {
     {
       name: 'His Excellency Tan Sri Dato Professor Joseph Adaikalam',
       position: 'Educationist, Philanthropist and Economic Advisor to the Government of Malaysia',
-      img: Adv6,
+      img: Adv2,
       bio:
         <Fragment>
           His Excellency Tan Sri Dato Professor Joseph Adaikalam is an educationist, social entrepreneur and
@@ -191,7 +187,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Rashid Al Habtoor',
       position: 'CEO and President of RKHBC, Al Habtoor Trading Enterprises (HTE) LLC and RKH Investments',
-      img: Adv1,
+      img: Adv4,
       bio:
         <Fragment>
           Born into one of the largest business families and raised in Dubai, United Arab Emirates, Mr. Al Habtoor's
@@ -219,7 +215,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Jürgen Kob',
       position: 'Fintech and Asset Management Consultant',
-      img: Adv7,
+      img: Adv5,
       bio:
         <Fragment>
           Jürgen is a consultant with 30 years of experience in the traditional financial industry and asset management.
@@ -244,7 +240,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Joseph Koren',
       position: 'Business Leader and Cyber Security Expert',
-      img: Adv8,
+      img: Adv6,
       bio: <Fragment>
         After 35 years in the jewelry industry as CEO of Nissko Jewelry and Daniel K, Mr. Koren cultivated relationships
         all over the world, ranging from big chain department store executives to VIP clients to Royal Family Members.
