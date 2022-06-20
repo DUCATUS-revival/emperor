@@ -336,20 +336,6 @@ const HomePage: React.FC = () => {
             <ManagerCard key={index} {...manager} />
           ))}
         </div>
-        <div className="home__advisory-board">
-          <img className="home__advisory-board__line" src={Line} alt="line between sections"/>
-          <div className="home__advisory-board__header">Advisory Board</div>
-          <div className="home__advisory-board__content">
-            {advisory.map((advisor, index) => (
-              <AdvisorCard
-                img={advisor.img}
-                name={advisor.name}
-                position={advisor.position}
-                bio={advisor.bio}
-              />
-            ))}
-          </div>
-        </div>
       </div>
     </main>
   );
