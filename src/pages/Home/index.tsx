@@ -16,6 +16,7 @@ import MImg4 from '../../assets/img/managers/4.jpg';
 import MImg5 from '../../assets/img/managers/5.jpg';
 import MImg6 from '../../assets/img/managers/6.jpg';
 import MImg7 from '../../assets/img/managers/7.jpg';
+import MImg8 from '../../assets/img/managers/8.jpg';
 import Line from '../../assets/img/advisory/line.png';
 import Adv1 from '../../assets/img/advisory/advisor-1.png';
 import Adv2 from '../../assets/img/advisory/advisor-2.png';
@@ -80,21 +81,26 @@ const HomePage: React.FC = () => {
     },
     {
       img: MImg4,
+      name: 'Eliran Shatashvili',
+      position: 'Chief Marketing Officer',
+    },
+    {
+      img: MImg5,
       name: 'Mouhsin Senhaji',
       position: 'Head of Information Systems',
     },
     {
-      img: MImg5,
+      img: MImg6,
       name: 'Geoff Harrison',
       position: 'Head of Global Support',
     },
     {
-      img: MImg6,
+      img: MImg7,
       name: 'Sheilah Manalo',
       position: 'Head of Communications',
     },
     {
-      img: MImg7,
+      img: MImg8,
       name: 'Sanjay Bhoola',
       position: 'Head of Ducatus Property & Travel',
     },
