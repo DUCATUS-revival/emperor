@@ -16,7 +16,6 @@ import MImg4 from '../../assets/img/managers/4.jpg';
 import MImg5 from '../../assets/img/managers/5.jpg';
 import MImg6 from '../../assets/img/managers/6.jpg';
 import MImg7 from '../../assets/img/managers/7.jpg';
-import MImg8 from '../../assets/img/managers/8.jpg';
 
 const HomePage: React.FC = () => {
   const cards = [
@@ -91,11 +90,6 @@ const HomePage: React.FC = () => {
       img: MImg7,
       name: 'Sheilah Manalo',
       position: 'Head of Communications',
-    },
-    {
-      img: MImg8,
-      name: 'Sanjay Bhoola',
-      position: 'Head of Ducatus Property & Travel',
     },
   ];
 
